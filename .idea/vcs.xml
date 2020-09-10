@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/git-localconfig-repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/localgit" vcs="Git" />
   </component>
 </project>

@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 @Setter
 public class Config {
 
-    private int maximum;
-    private int minimum;
+    private int max;
+    private int min;
 
 
 }
