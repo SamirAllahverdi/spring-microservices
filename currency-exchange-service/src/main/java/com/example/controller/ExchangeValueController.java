@@ -19,7 +19,7 @@ public class ExchangeValueController {
 
     private final ExchangeValueService service;
 
-    @GetMapping("/currency-exchange-service/from/{from}/to/{to}")
+    @GetMapping("/currency-exchange/from/{from}/to/{to}")
     public ExchangeValue get(@PathVariable String from, @PathVariable String to) {
         int port = Integer.parseInt(Objects.requireNonNull(env.getProperty("local.server.port")));
 
