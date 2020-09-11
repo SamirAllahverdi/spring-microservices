@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="currency-conversion-service" />
         <module name="eureka-naming-server" />
+        <module name="zuul-api-gateway-server" />
+        <module name="currency-exchange-service" />
         <module name="limits-service" />
         <module name="spring-cloud-config-server" />
-        <module name="currency-exchange-service" />
-        <module name="currency-conversion-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="eureka-naming-server" target="11" />
       <module name="limits-service" target="11" />
       <module name="spring-cloud-config-server" target="11" />
+      <module name="zuul-api-gateway-server" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +31,7 @@
       <module name="eureka-naming-server" options="-parameters" />
       <module name="limits-service" options="-parameters" />
       <module name="spring-cloud-config-server" options="-parameters" />
+      <module name="zuul-api-gateway-server" options="-parameters" />
     </option>
   </component>
 </project>
